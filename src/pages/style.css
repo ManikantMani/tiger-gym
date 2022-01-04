@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Muli, sans-serif";
+    background-color: black;
+    
+}
+
+.navbar {
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    color: #ac1805;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav-link {
+    font-weight: bold;
+    border-bottom: 2px solid #ffffff;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #940a00 !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+    background-color: red;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* home section style :start */
+
+.brand {
+    color: #fff;
+}
+
+.brand-name {
+    color: #940a00;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.heading {
+    display: grid;
+    margin-left: 2rem;
+}
+
+.my-3 {
+    color: #fff;
+    word-spacing: 2px;
+    font-size: 1.5rem;
+
+}
+
+.btn-get-started {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding:  10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #ac1805;
+    border: 2px solid #b11b00;
+    text-decoration: none;
+}
+
+.btn-get-started:hover {
+    background-color: #b61611;
+    color: #fff;
+}
+
+/****************** Service style **************************/
+
+
+.text-center {
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #940a00, 0 0 10px #940a00, 0 0 15px #940a00, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    font-weight: 1000;
+    font-size: 3rem;
+}
+
+.text-center:hover {
+    color: blue;
+}
+
+/****************** ServiceCard style **************************/
+
+/* .card {
+    when image will be added or if need card sizing then add your css style
+}
+
+.card-img-top {
+    when image will be added or if need card sizing then add your css style
+} */
+
+.card-title {
+    color: #ac1805;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+
+.card-text {
+    color: #fff;
+}
+
+.btn {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding:  5px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1.5px 10px 6px rgba(255,0,0,0.75);
+    -webkit-box-shadow: 1px 1.5px 10px 6px rgba(255,0,0,0.75);
+    -moz-box-shadow: 1px 1.5px 10px 6px rgba(255,0,0,0.75);
+    transition: 0.5s;
+    color: #fff;
+    border: 2px solid #b11b00;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: red;
+    background-color: #fff;
+}
+
+/******************** offer style *********************************/
+
+.offer-price {
+    color: yellow;
+}
+ /* extra style which is common in service page are used by offer page 
+ check service page if you want to see offer page css,*/
+
+ 
+
+ /******************** contact us style *********************************/
+
+
+    .form-label {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+
+     /******************** about us style *********************************/
+
+     h1 {
+         color: #fff;
+     }
+
+     
+
+
+     .footer {
+         text-align: center;
+     }
+    
+     .footer p {
+         color: #fff;
+         margin-top: 3rem;
+     }
