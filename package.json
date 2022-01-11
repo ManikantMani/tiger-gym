@@ -1,6 +1,5 @@
 {
-  "homepage": "https://ManikantMani.github.io/Tiger-zym",
-  "name": "games",
+  "name": "tiger-gym",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
